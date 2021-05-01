@@ -1,5 +1,8 @@
+//El resource va a ser la capa que nosotros definimos para manejar todas las solicitudes
+//que lleguen a nuestro servidor. A su vez también podríamos crear más capas (service, repositories)
+//en caso que tengamos más lógica de negocio
 const workshops = require("../../workshops.json");
-const uuidv4 = require("uuid").v4;
+const uuidv4 = require("uuid").v4; //uuid autogenera ids alfanumericos
 
 function getAllWorkshops(req, res) {
   res.json(workshops);
