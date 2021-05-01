@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Taller de NodeJS",
+    "speaker": "Matías Giménez",
+    "tech": "nodejs"
+  },
+  {
+    "id": 2,
+    "name": "Introducción a Python",
+    "speaker": "Ignacio García",
+    "tech": "python"
+  },
+  {
+    "id": 3,
+    "name": "Taller de GIT",
+    "speaker": "Matías Noriega",
+    "tech": "git"
+  },
+  {
+    "id": 4,
+    "name": "Workshop con ReactJS",
+    "speaker": "Fernando Pastorelli",
+    "tech": "react"
+  }
+]
